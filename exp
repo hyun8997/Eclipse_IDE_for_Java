@@ -1,6 +1,7 @@
 단축키
 ctrl + s		Save
-ctrl + F11	Run
+ctrl + F11	Run 
+ctrl + /    한 줄 주석
 
 d20201130
 Identifier      식별자 설명
