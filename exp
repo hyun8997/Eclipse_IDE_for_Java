@@ -6,7 +6,7 @@ ctrl + space              완성 기능
                           sysout 치고 ctrl + space => System.out.println(); 완성해줌.
 tab                       깜빡이는 선이 현재 위치고 녹색선이 이클립스가 예측한 다음 위치, tab키로 녹색선으로 이동 가능
 ctrl + alt + 아래방향키    선택된 행 복사&붙여넣기
-
+Ctrl + shift + O          import 단축키
 
 
 
@@ -18,7 +18,8 @@ ctrl + alt + 아래방향키    선택된 행 복사&붙여넣기
 메인 문 // 메인 시작 // 메인 끝 적어두는게 권장 
 class는 java의 최소단위이다.
 자바는 int 이하의 연산에서는 모두 int로 자동변환하여 계산
-
+평균 구할 때 int형 나누기 int형은 결과가 int형이다. 따라서 반드시 캐스팅(형식변환) 필요 //double avg = score / (double)3; //double avg = score / 3.0;
+Row 먼저 찾고 Column
 
 
 
@@ -30,10 +31,15 @@ VarEx01.java              정수형 변수 선언, 초기화, 출력
 VarEx02.java              실수형 변수 선언과 동시에 초기화, 강제 형변환
 VarEx03.java              문자형, ASCII, unicode
 VarEx04.java              논리형
-
-
-
-
+# d20201202
+Scanner                   스캔 동작
+Loop                      반복문 종류와 특징
+SwitchEx04.java           Switch문 예시
+IfEx05.java               If문 예시
+ForBasic.java             For문
+ForEx01.java              
+ForEx02.java              다중 반복문
+ForEx03.java              For문, 개행 없는 출력
 
 
 
