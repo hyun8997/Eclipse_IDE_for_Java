@@ -40,6 +40,9 @@ ForBasic.java             For문
 ForEx01.java              
 ForEx02.java              다중 반복문
 ForEx03.java              For문, 개행 없는 출력
+ForEx04.java              For문 예시:구구단
+ForEx05.java              For문 예시:덧셈의 조합
+WhileBasic.java           While문, do~while문
 
 
 
