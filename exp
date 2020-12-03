@@ -26,14 +26,14 @@ Row 먼저 찾고 Column
 
 -------------------------------------------------------------------------------
 # d20201130
-Identifier                식별자 설명
-VarEx01.java              정수형 변수 선언, 초기화, 출력
+*Identifier               식별자 설명(primitive type, reference type 설명)
+VarEx01.java              정수형 변수 선언, 초기화, 출력(primitive type)
 VarEx02.java              실수형 변수 선언과 동시에 초기화, 강제 형변환
 VarEx03.java              문자형, ASCII, unicode
 VarEx04.java              논리형
 # d20201202
-Scanner                   스캔 동작
-Loop                      반복문 종류와 특징
+*Scanner                  스캔 동작
+*Loop                     반복문 종류와 특징
 SwitchEx04.java           Switch문 예시
 IfEx05.java               If문 예시
 ForBasic.java             For문
@@ -43,7 +43,12 @@ ForEx03.java              For문, 개행 없는 출력
 ForEx04.java              For문 예시:구구단
 ForEx05.java              For문 예시:덧셈의 조합
 WhileBasic.java           While문, do~while문
-
+# d20201203
+*Array                    배열 설명(reference type)
+WhileEx01.java            While문
+WhileEx02.java            While문
+BreakEx.java              Break, Continue 루프 제어
+ArrayEx01.java            배열 
 
 
 
