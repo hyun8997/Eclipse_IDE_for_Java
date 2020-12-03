@@ -20,6 +20,10 @@ class는 java의 최소단위이다.
 자바는 int 이하의 연산에서는 모두 int로 자동변환하여 계산
 평균 구할 때 int형 나누기 int형은 결과가 int형이다. 따라서 반드시 캐스팅(형식변환) 필요 //double avg = score / (double)3; //double avg = score / 3.0;
 Row 먼저 찾고 Column
+primitive type 변수 선언 : 메모리영역에 공간을 만들고 대입(할당)
+reference type 변수 선언 : stack 영역에 변수를 할당하고 heap 영역의 메모리 주소를 참조
+참조(할당) 되어있는 상태 : 인스턴스화 되어있다, 주소값을 부여받았다.
+
 
 
 
@@ -48,7 +52,7 @@ WhileBasic.java           While문, do~while문
 WhileEx01.java            While문
 WhileEx02.java            While문
 BreakEx.java              Break, Continue 루프 제어
-ArrayEx01.java            배열 
+ArrayEx01.java            배열 선언, 출력, 배열 크기
 
 
 
