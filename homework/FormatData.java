@@ -15,8 +15,9 @@ public class FormatData {
 		System.out.println(" ]");
 	}
 	
-	void print(double f) {
-		System.out.format("%.1f",f);
+	void print(float f) {
+		//System.out.format("%.1f",f);
+		System.out.println(f);
 	}
 	
 }
