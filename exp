@@ -23,6 +23,13 @@ Row 먼저 찾고 Column
 primitive type 변수 선언 : 메모리영역에 공간을 만들고 대입(할당)
 reference type 변수 선언 : stack 영역에 변수를 할당하고 heap 영역의 메모리 주소를 참조
 참조(할당) 되어있는 상태 : 인스턴스화 되어있다, 주소값을 부여받았다.
+메소드 호출: call by naem, value, reference
+> method overloading (다중 정의)
+ : 메소드 이름은 하나이지만 다양한 상황에서 동작하게 하는 기능
+ : 메소드 이름은 같게 하고 매개변수 타입, 이름, 순서, 개수를 다르게 하면 됨
+ : 만드는 사람(개발자)는 불편하나 사용자는 편해짐
+String 비교는 함수로, id.equals("java")
+
 
 
 
@@ -64,11 +71,12 @@ Car.java                  클래스 생성, 호출
 MethodBasic.java          메소드 선언, 인스턴스화, 호출
 SungJuk.java              메소드 call by name 예시
 SungJuk2.java             메소드 call by value 예시
-
-
-
-
-
+MethodEx01.java           메소드 연습 파일
+MethodEx02.java
+MethodEx03.java
+MethodEx04.java           메소드 이름 같아도 입력 parameter를 다르게하면 오류 없이 잘됨
+                          => method overloading, 다중 
+MultiParam.java           로그인 메소드, String 비교는 함수로 함 str1.equals(str2)
 
 
 
