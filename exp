@@ -77,7 +77,10 @@ MethodEx03.java
 MethodEx04.java           메소드 이름 같아도 입력 parameter를 다르게하면 오류 없이 잘됨
                           => method overloading, 다중 
 MultiParam.java           로그인 메소드, String 비교는 함수로 함 str1.equals(str2)
-
+# d20201207
+MethodReturn.java         값을 return하는 method
+MethodEx05.java           
+MethodEx06.java           소수인지 boolean return
 
 
 
