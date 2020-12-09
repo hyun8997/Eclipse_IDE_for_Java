@@ -91,6 +91,7 @@ Computer.java             맴버 변수(필드), 생성자, 맴버 메소드
 GuGuDan.java              OOP 형태로 구구단 출력: 필드, 생성자, 맴버 메소드 구현 연습
 Human.java                Society에서 사용할 클래스
 Society.java              Human 호출, OOP 형태는 있으나 보안등 완성된 OOP가 아님을 확인
+# d20201209
 
 
 
