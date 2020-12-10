@@ -60,6 +60,11 @@ Interface : 서로 관계가 없는 객체들을 상호작용 하기 위해 사�
             추상클래스보다 더 추상적 객체
  형태 : implements 인터페이스명 (다중 상속은 아니지만 다중 상속처럼 사용가능함)
         자바는 단일 상속만을 채택하고 있으므로 다중 상속의 장점을 취하고 싶을 때 사용 (implements)
+    // Interface를 통해서 배열 사용 가능
+		Flyable[] fList = new Flyable[2];	
+    인터페이스는 간접적인 상속 (has - a 관계)	cf) 상속 : is - a 관계
+
+
 
 
 
@@ -143,20 +148,22 @@ Marine.java               마린, 테란에 상속
 Medic.java                메딕, 테란에 상속
 TestMain3.java            위의 3 파일 테스트
 # d20201210
-포유류.java                추상 클래스
-고래.java                  포유류 밑 고래
-토끼.java                  포유류 밑 토끼
+객체 지향 특징             OPP특징
+포유류.java               추상 클래스
+고래.java                 포유류 밑 고래
+토끼.java                 포유류 밑 토끼
 AbstractMain.java         포유류 추상 테스트 파일
 ReferenceArr.java         배열로 선언, 확인
 AbstractEx.java           abstract class 테스트
 Flyable.java              인터페이스 설명, 자바는 단일 상속만을 채택하고 있으므로 다중 상속의 장점을 취하고 싶을 때 사용 (implements)
 Horse.java                extends 포유류, implements Flyable(다중 상속은 아니지만 다중 상속처럼 사용가능함)
-InterfaceMain.java        Horse와 Flyable 인터페이스를 테스트
-
-
-
-
-
+InterfaceMain.java        인터페이스 테스트
+Marine.java               d20201209의 파일, 인터페이스 Flyable 추가함
+Teran.java                d20201209의 파일
+InterfaceEx01.java        인터페이스는 추상메소드와 상수만이 존재 예시
+InterfaceEx02.java
+InterfaceClass.java       인터페이스를 상속받아서 사용할 클래스, 다중상속처럼 인터페이스 사용 가능
+InterfaceMain2.java       InterfaceEx01,InterfaceEx02,InterfaceClass 테스트
 
 
 
