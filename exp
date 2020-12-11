@@ -64,8 +64,8 @@ Interface : 서로 관계가 없는 객체들을 상호작용 하기 위해 사�
 		Flyable[] fList = new Flyable[2];	
     인터페이스는 간접적인 상속 (has - a 관계)	cf) 상속 : is - a 관계
 
-
-
+// AWT : Abstract Window Toolkit
+//container : 다른 component를 담을 수 있는 component	//add(btn);
 
 
 
@@ -164,10 +164,13 @@ InterfaceEx01.java        인터페이스는 추상메소드와 상수만이 존
 InterfaceEx02.java
 InterfaceClass.java       인터페이스를 상속받아서 사용할 클래스, 다중상속처럼 인터페이스 사용 가능
 InterfaceMain2.java       InterfaceEx01,InterfaceEx02,InterfaceClass 테스트
-
-
-
-
+# d20201211
+ObjectEx.java		  자바에서 생략 가능한 것들
+AWTEx01.java		  Frame 사용한 창 연습
+AWTEx02.java		  Frame 사용한 창 연습 + 버튼 활성화
+AWTEx03.java		  Layout Manager : 배치 관리자	=> default가 BorderLayout
+AWTEx04.java		  FlowLayout : 물 흐르듯 레이아웃 생성
+AWTEx05.java		  GridLayout : 표 처럼 만들기, 선 그어서 레이아웃
 
 
 
