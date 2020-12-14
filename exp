@@ -67,9 +67,12 @@ Interface : 서로 관계가 없는 객체들을 상호작용 하기 위해 사�
 // AWT : Abstract Window Toolkit
 //container : 다른 component를 담을 수 있는 component	//add(btn);
 
-
-
-
+아주 예외적으로 String 클래스만  new를 생략하여 primitive type 처럼 쓰도록 허용
+hashCode() : 해당 객체의 고유한 값을 return 하는 method, 일반적으로 객체 내부 주소를 정수값(16진수)로 변환해서 return
+// 메소드 체이닝(chaining)	//문자열 연결
+		System.out.println(s1.concat(s2).concat(s3).concat(s4));
+//equals
+//equalsIgnoreCase : 대소문자 무시
 
 
 -------------------------------------------------------------------------------
@@ -171,14 +174,16 @@ AWTEx02.java		  Frame 사용한 창 연습 + 버튼 활성화
 AWTEx03.java		  Layout Manager : 배치 관리자	=> default가 BorderLayout
 AWTEx04.java		  FlowLayout : 물 흐르듯 레이아웃 생성
 AWTEx05.java		  GridLayout : 표 처럼 만들기, 선 그어서 레이아웃
-
-
-
-
-
-
-
-
+# d20201214
+Q1.java			  랜덤 구구단 출력용 윈도우
+GuGuDan.java		  Q1을 위한 랜덤 구구단 고르는 클래스
+Q3.java			  버튼 2개, 구분 동작, 백그라운드 색상 변경
+StringEx01.java		  new 생략 가능한 String을 확인, hashCode() : 해당 객체의 고유한 값을 return 하는 method, 메모리 최적화
+StringEx02.java		  문자열 연결, 메소드 체이닝(chaining), equals, equalsIgnoreCase : 대소문자 무시, 등등 String 하 기능 확인 요망
+			  향상된	for문 for(int i=0; i<ch2.length; i++)	=	for(char c : ch2)
+StringBuilderEx.java	  StringBuffer, StringBuilder
+AWTEx10.java		  키보드 입력받아서 버튼 이동시키는것, this.addWindowListener(new WindowAdapter()로 exit 기능만 윈도우에서 빼오는것
+AWTEx11.java		  마우스 움직임 인식, 라벨(텍스트 박스)
 
 
 
