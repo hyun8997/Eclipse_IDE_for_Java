@@ -74,6 +74,11 @@ hashCode() : 해당 객체의 고유한 값을 return 하는 method, 일반적�
 //equals
 //equalsIgnoreCase : 대소문자 무시
 
+// Vector : 동적 성장형 Object 배열
+// ArrayList : 비동기적 성장형 Object 배열
+
+
+
 
 -------------------------------------------------------------------------------
 # d20201130
@@ -185,12 +190,15 @@ StringBuilderEx.java	  StringBuffer, StringBuilder
 AWTEx10.java		  키보드 입력받아서 버튼 이동시키는것, this.addWindowListener(new WindowAdapter()로 exit 기능만 윈도우에서 빼오는것
 AWTEx11.java		  마우스 움직임 인식, 라벨(텍스트 박스)
 # d20201215
-
-
-
-
-
-
+*Collection		  java collection : 자료구조를 구현하기 위한 재사용 가능한 클래스와 인터페이스의 집합
+ArraysSort.java		  소팅기능 유틸에도 있음
+CollectionEx01.java	  Vector, 배열형태, 10씩 capacity증가, 순서(index) 존재
+CollectionEx02.java	  ArrayList
+CollectionEx03.java	  HashSet, next 어떤놈인지 정보만 있고 index 없음
+CollectionEx04.java	  HashMap, (key, value)	=> 순서x, key로 찾아간다.
+CollectionEx05.java	  ArrayList 안의 데이터 첫글자만 출력, add등
+			  List의 객체 중 int를 String으로 바꿀수 없어서 에러나는거 해결방법 => JCF 뒤에 <E>를 붙임 => generic
+WrapperClass.java	  WrapperClass ex)String => Integer => int 등
 
 
 
