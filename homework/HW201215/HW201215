@@ -1,0 +1,56 @@
+1. API 문서를 보고 ArrayList 클래스의 중요 메서드를 정리하세요.
+
+add(int index, E element)
+Inserts the specified element at the specified position in this list.
+
+clear()
+Removes all of the elements from this list.
+
+contains(Object o)
+Returns true if this list contains the specified element.
+
+get(int index)
+Returns the element at the specified position in this list.
+
+iterator()
+Returns an iterator over the elements in this list in proper sequence.
+
+remove(int index)
+Removes the element at the specified position in this list.
+
+remove(Object o)
+Removes the first occurrence of the specified element from this list, if it is present.
+
+size()
+Returns the number of elements in this list.
+
+sort(Comparator<? super E> c)
+Sorts this list according to the order induced by the specified Comparator.
+
+subList(int fromIndex, int toIndex)
+Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
+
+
+2. List, Set, Map 인터페이스의 특징은?
+
+List : 순서가 존재하며 중복된 값도 존재
+Set : 순서x, 중복x	
+Map : key와 value
+
+
+3. List, Set, Map의 대표적인 중요 클래스는?
+
+size()
+add()
+set 의 hasNext()
+map 의 containsKey()
+map 의 containsValue()
+map 의 keySet()
+
+
+
+
+
+
+
+
