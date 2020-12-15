@@ -99,7 +99,7 @@ public class WrapperClass {
 		System.out.println("d : "+ d);		//d : 1.011112222E9
 		
 		//list의 첫번째 문자들만 출력해보세요
-		
+		//String : parse(x) - API 참조
 		
 		
 		
