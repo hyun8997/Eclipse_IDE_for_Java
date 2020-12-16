@@ -64,18 +64,57 @@ Interface : 서로 관계가 없는 객체들을 상호작용 하기 위해 사�
 		Flyable[] fList = new Flyable[2];	
     인터페이스는 간접적인 상속 (has - a 관계)	cf) 상속 : is - a 관계
 
-// AWT : Abstract Window Toolkit
-//container : 다른 component를 담을 수 있는 component	//add(btn);
+ AWT : Abstract Window Toolkit
+container : 다른 component를 담을 수 있는 component	//add(btn);
 
 아주 예외적으로 String 클래스만  new를 생략하여 primitive type 처럼 쓰도록 허용
 hashCode() : 해당 객체의 고유한 값을 return 하는 method, 일반적으로 객체 내부 주소를 정수값(16진수)로 변환해서 return
-// 메소드 체이닝(chaining)	//문자열 연결
+ 메소드 체이닝(chaining)	//문자열 연결
 		System.out.println(s1.concat(s2).concat(s3).concat(s4));
-//equals
-//equalsIgnoreCase : 대소문자 무시
+equals
+equalsIgnoreCase : 대소문자 무시
 
-// Vector : 동적 성장형 Object 배열
-// ArrayList : 비동기적 성장형 Object 배열
+ Vector : 동적 성장형 Object 배열
+ ArrayList : 비동기적 성장형 Object 배열
+
+>  Generic Type
+  : 다양한 자료형을 하나의 클래스로 처리
+  : 형태 -  생성한 클래스 뒤에 <T> -> 'T'는 일반화 시킨 객체(변수)
+  => 구현 클래스에서 필요한 자료형을 대입하여 사용
+  1. 사람 관련 정보 클래스인데 갑자기 동물 관련 클래스가 생성이 된다면? (논리적 오류, 문법적으로는 통과됨)
+    : 논리적으로 맞지 않는 부분에 대해서 방지할 필요가 있으므로 generic을 통해 방지할 장치를 마련
+    : extends - 확장 (자바 상속 개념과는 약간 다름)
+ 3. 사람 관련 특성을 생성
+interface Personable{};
+
+ 5. 원하는 클래스에 상속
+class Stu implements Personable{};
+
+class Emp implements Personable{};
+
+ 4. generic 객체에 상속
+class Per<T extends Personable>{
+	T info;
+	
+	public Per(T info) {
+		this.info=info;
+	}
+}
+
+Exception(예외) : 가벼운 오류				cf) error : 심한 오류
+- 예외 처리 방법
+1) try~catch
+2) throws (예외 전가)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -199,19 +238,20 @@ CollectionEx04.java	  HashMap, (key, value)	=> 순서x, key로 찾아간다.
 CollectionEx05.java	  ArrayList 안의 데이터 첫글자만 출력, add등
 			  List의 객체 중 int를 String으로 바꿀수 없어서 에러나는거 해결방법 => JCF 뒤에 <E>를 붙임 => generic
 WrapperClass.java	  WrapperClass ex)String => Integer => int 등
-
-
-
-
-
-
-
-
-
-
-
-
-
+# d20201216
+TypeFloat.java		  
+TypeString.java
+TypeClass.java		  위의 2 클래스와 달리 제너릭 사용
+GenericEx01.java	  TypeClass를 사용한 선언과 출력
+GenericEx02.java	  
+GenericEx03.java	  Object 사용 클래스
+GenericEx04.java	  Generic 사용해서 03번의 오류 제거
+GenericEx05.java	  내가 원하는 객체만 제너릭에서 받아들이도록 하는 설정 방법
+ExceptionBasic.java	  예외 처리 방법
+TryCatchFinally.java	  try~catch,finally
+ExceptionThrows.java	  throws
+UtilEx01.java		  Random
+UtilEx02.java		  날짜 관련
 
 
 
