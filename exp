@@ -252,14 +252,17 @@ TryCatchFinally.java	  try~catch,finally
 ExceptionThrows.java	  throws
 UtilEx01.java		  Random
 UtilEx02.java		  날짜 관련
-
-
-
-
-
-
-
-
+# d20201216
+MathEx.java		  
+UtilEx03.java		  문자열을 조건에 따라 나눌 수 있게 해주는 StringTokenizer
+SwingBasic.java		  GUI 도구
+SwingBasic2.java
+SwingEx01.java		  이전의 AWT와 완전 비슷함. closing 은 편해진듯
+SwingEx02.java		  key event
+SwingEx03.java		  key font, visable toggle등
+SwingEx04.java		  jlabel에 image 삽입 방법
+SwingEx05.java		  radio button,	implements ItemListener //클릭 보다 선택 개념이다. 동그랗게 나옴
+SwingEx06.java		  checkbox, implements ItemListener //체크박스, 네모 모양, 체크박스로 숫자 더하고 빼는 알고리즘(?) 있음
 
 
 
