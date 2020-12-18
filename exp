@@ -252,7 +252,7 @@ TryCatchFinally.java	  try~catch,finally
 ExceptionThrows.java	  throws
 UtilEx01.java		  Random
 UtilEx02.java		  날짜 관련
-# d20201216
+# d20201217
 MathEx.java		  
 UtilEx03.java		  문자열을 조건에 따라 나눌 수 있게 해주는 StringTokenizer
 SwingBasic.java		  GUI 도구
@@ -263,11 +263,12 @@ SwingEx03.java		  key font, visable toggle등
 SwingEx04.java		  jlabel에 image 삽입 방법
 SwingEx05.java		  radio button,	implements ItemListener //클릭 보다 선택 개념이다. 동그랗게 나옴
 SwingEx06.java		  checkbox, implements ItemListener //체크박스, 네모 모양, 체크박스로 숫자 더하고 빼는 알고리즘(?) 있음
-
-
-
-
-
+# d20201218
+SwingEx07.java		  JScrollPane, JComboBox<String>
+SwingEx08.java		  JTextArea, JTextField, JPanel, JScrollPane, 심심이만듬
+SwingEx09.java		  JSlider, RGB 슬라이더 구현
+SwingEx10.java		  option, 새로운 창 띄우는거
+SwingEx11.java		  file dialog, 파일 찾기, 
 
 
 
