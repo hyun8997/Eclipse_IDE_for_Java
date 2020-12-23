@@ -106,7 +106,7 @@ Exception(예외) : 가벼운 오류				cf) error : 심한 오류
 1) try~catch
 2) throws (예외 전가)
 
-
+자바는 DB와 연동할 때 I/O를 사용, streaming 
 
 
 
@@ -281,15 +281,15 @@ MultiThread4.java	  개발자는 작업의 중요도, 순서 배치 작업을 �
 MultiThread5.java	  +, - 기호가 반복되서 출력되도록
 MultiThread6.java	  progressbar, 압축푸는 프로그램
 MultiThread7.java	  3초마다 log 저장하는 프로그램, mt7.setDaemon(true);
+# d20201222
 
-
-
-
-
-
-
-
-
+# d20201223
+JDBCEx02.java		  EMP 테이블의 모든 정보를 조회
+JDBCEx03.java		  사용자로부터 입력받은 사원의 사번, 이름, 연봉 조회
+*SQL_Plus		  JDBCEx04 의 데이터 입력을 위한 테이블 생성내역
+JDBCEx04.java		  미리 생성한 login 테이블에 데이터 입력
+MakeConnection.java	  singleTone pattern/ 생성 패턴, 구조 패턴, 행위 패턴 => 디자인 패턴/ 그 중 생성패턴의 싱글턴 패턴 사용 : 한 클래스에 한 객체만 존재하도록 제한
+Login.java		  로그인창 기능 구현
 
 
 
