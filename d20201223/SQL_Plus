@@ -1,0 +1,31 @@
+JDBCEx04 의 데이터 입력을 위한 테이블 생성내역
+
+SQL> show user
+USER is "SCOTT"
+
+SQL> create table login
+  2  (id varchar2(20),
+  3  pw varchar2(10),
+  4  name varchar2(12));
+  
+  Table created.
+  
+SQL> desc login		//만든 테이블 확인
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                                 VARCHAR2(20)
+ PW                                                 VARCHAR2(10)
+ NAME                                               VARCHAR2(12)
+
+
+JDBCEx04 실행 후 테이블에 값 추가된것 확인
+
+SQL> select * from login;
+
+ID                                       PW
+---------------------------------------- --------------------
+NAME
+------------------------
+java                                     1234
+hong
+
