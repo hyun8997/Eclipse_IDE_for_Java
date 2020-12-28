@@ -1,0 +1,26 @@
++ JAVA I/O
+
+ - Stream 방식
+ 1) 단방향 
+ 2) 느리다
+ 
+ - stream 종류
+ 
+> byte stream
+
+   InputStream				----				FileInputeStream
+  (abstract class)								BufferedInputStream
+  													.
+  													.
+
+  													
+   OutputStream				----				FileOutputStream
+  (abstract class)								BufferedOutputStream   
+   	  												.
+  													.
+   													
+   													
+   													
+   													
+   													
+   													

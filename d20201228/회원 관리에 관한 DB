@@ -1,0 +1,29 @@
+-- member table
+
+create table member_ex
+(memno number(4),
+id varchar2(20),
+pw varchar2(20),
+name varchar2(20),
+tel varchar2(12),
+regdate date);
+
+Table MEMBER_EX이(가) 생성되었습니다.
+
+
+
++ 스키마 객체, 시퀀스
+
+create sequence mem_memno_seq
+start with 1
+increment by 1
+minvalue 1
+maxvalue 9999
+nocache
+nocycle;
+
+Sequence MEM_MEMNO_SEQ이(가) 생성되었습니다.
+
+
+
+
