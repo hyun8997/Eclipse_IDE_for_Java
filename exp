@@ -290,12 +290,13 @@ JDBCEx03.java		  사용자로부터 입력받은 사원의 사번, 이름, 연�
 JDBCEx04.java		  미리 생성한 login 테이블에 데이터 입력
 MakeConnection.java	  singleTone pattern/ 생성 패턴, 구조 패턴, 행위 패턴 => 디자인 패턴/ 그 중 생성패턴의 싱글턴 패턴 사용 : 한 클래스에 한 객체만 존재하도록 제한
 Login.java		  로그인창 기능 구현
-
-
-
-
-
-
+# d20201228
+JDBCEx05.java		  사용자가 입력한 내용을 DBMS에 저장, 회원 가입
+JDBCEx06.java		  홍길동 회원이 자신의 ID를  hwalbindang, pw를 3456으로 수정할 수 있도록 해보세요
+JDBCEx07.java		  회원 한명 삭제해보세요
+*IO			  JAVA I/O 설명
+FileEx.java		  file 관련
+IOEx01.java		  C:\Users\yuiop\Downloads\iotest의 goot.txt 내용 읽어오기
 
 
 
