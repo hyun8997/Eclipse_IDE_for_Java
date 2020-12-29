@@ -297,14 +297,17 @@ JDBCEx07.java		  회원 한명 삭제해보세요
 *IO			  JAVA I/O 설명
 FileEx.java		  file 관련
 IOEx01.java		  C:\Users\yuiop\Downloads\iotest의 goot.txt 내용 읽어오기
-
-
-
-
-
-
-
-
+# d20201229
+IOEx02.java		  byte stream - buffer, 접근 속도를 향상
+IOEx03.java		  char stream, 내부적으로 buffer를 사용하고 있으므로 기존 버퍼에서 종료작용하는 flush써야 함, close(); 권장 사항
+IOEx04.java		  char stream - buffer
+IOEx05.java		  키보드 입력을 저장
+IOEx06.java		  IOEx05에서 키보드 입력 한글 깨지는것 개선
+IOEx07.java		  DB를 위한 dat, xml등 보안을 위한 파일 읽기/쓰기 (json, txt)등도 사용함
+IOEx08.java		  객체도 저장하고 읽어들일 수 있음
+Member.java		  IOEx08의 저장용 객체, 객체 직렬화 - I/O 전송을 할 객체를 잘게 쪼개놓은 상태, 그래야 에러가 안뜬다
+			  implements Serializable, 객체가 가진 데이터들을 순차적으로 데이터로 변화시키는 것
+			  직렬화에서 특정 부분을 제외(보호) 가능, transient String pw;
 
 
 
