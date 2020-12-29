@@ -20,6 +20,28 @@
   													.
    													
    													
+> char stream(2byte라서 위의 거로는 오류날 수 있다)   ex) 문서처리
+
+
+   Reader   				----				FileReader					
+  (abstract class)								BufferedReader  
+   	  												.
+  													.   													
+   													
+   Writer   				----				FileWriter					
+  (abstract class)								BufferedWriter  
+   	  												.
+  													.   													
+   													   													
+>
+
+	byte stream			---- bridge ----		char stream
+						InputStreamReader
+						OutputStreamWriter
+
+
+
+   													
    													
    													
    													
