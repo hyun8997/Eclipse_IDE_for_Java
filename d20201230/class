@@ -1,0 +1,36 @@
++ class
+
+
+> Inner Class : 클래스 안에 포함되어 있는 클래스
+- 내부 클래스와 외부 클래스가 밀접한 관계에 있는 경우
+- 내부 클래스에서 외부 클래스의 private 한 멤버 변수에 접근 가능
+
+
+- 종류 
+1) 멤버 변수(필드) 처럼 사용되는 경우 : member inner class
+2) static 변수 처럼 사용되는 경우 : static inner class
+3) 멤버 메소드처럼 사용되는 경우 : local inner class
+4) 이름이 없는 경우                 : Annoymous inner class
+
+
+- 주의사항
+
+1) Inner Class는 Static 변수가 있으면 안된다.
+ : Outer Class 도 구현클래스에서 뉴 키워드를 통해 메모리에 올라가야 사용할 수 있는데
+     멤버변수처럼 사용하는 Inner class가 new 하지도 않고 static으로 먼저 사용될 수는 없음
+     
+     2) Static Inner Class에는 new 키워드를 사용해야만 하는 인스턴스 변수는 사용할 수없음.
+     3) 지역변수는 코드블럭 {} 을 나오면 사라지므로 그전에 코드블럭 안에서 new해야함
+     4) 익명클래스는 일회성 클래스라고도 부른다.
+     
+     
+     
+     
+     
+cf)
+- 통상적 클래스 구현방식
+: 클래스명 참조변수 = new 생성자();
+
+- 익명클래스 구현
+:new 인터페이스 (){ 변수,메소드 선언}
+:new 조상클래스(){};
