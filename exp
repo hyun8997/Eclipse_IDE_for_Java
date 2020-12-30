@@ -308,7 +308,9 @@ IOEx08.java		  객체도 저장하고 읽어들일 수 있음
 Member.java		  IOEx08의 저장용 객체, 객체 직렬화 - I/O 전송을 할 객체를 잘게 쪼개놓은 상태, 그래야 에러가 안뜬다
 			  implements Serializable, 객체가 가진 데이터들을 순차적으로 데이터로 변화시키는 것
 			  직렬화에서 특정 부분을 제외(보호) 가능, transient String pw;
-
+# d20201230
+*network		  IP, PORT 설명
+NetEx01.java		  
 
 
 
